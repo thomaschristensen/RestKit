@@ -150,6 +150,7 @@ extern NSString* cacheURLKey;
 		       forAuthenticationChallenge:challenge];
 	} else {
 	    RKLogWarning(@"Failed authentication challenge after %ld failures", (long) [challenge previousFailureCount]);
+        [_request didFailAuthentication];
 		[[challenge sender] cancelAuthenticationChallenge:challenge];
 	}
 }
