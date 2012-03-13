@@ -374,6 +374,12 @@ typedef enum {
 
 /**
  * Callback performed to notify the request that the underlying NSURLConnection
+ * failed authentication
+ */
+- (void)didFailAuthentication;
+
+/**
+ * Callback performed to notify the request that the underlying NSURLConnection
  * has completed with a response.
  */
 - (void)didFinishLoad:(RKResponse *)response;
@@ -452,6 +458,7 @@ typedef enum {
  */
 - (BOOL)wasSentToResourcePath:(NSString *)resourcePath;
 
+- (void)didFailAuthentication;
 @end
 
 /**

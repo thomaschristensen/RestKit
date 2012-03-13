@@ -562,6 +562,10 @@
     _timeoutTimer = nil;
 }
 
+- (void)didFailAuthentication {
+    NSLog(@"HELLO");
+}
+
 - (void)didFailLoadWithError:(NSError*)error {
 	if (_cachePolicy & RKRequestCachePolicyLoadOnError &&
 		[self.cache hasResponseForRequest:self]) {

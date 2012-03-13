@@ -346,6 +346,13 @@
     [pool release];
 }
 
+- (void)didFailAuthentication {
+    if ([self.delegate respondsToSelector:@selector(objectLoader:didFailAuthentication:)]) {
+        [(NSObject<RKObjectLoaderDelegate>*)_delegate objectLoader:self didFailAuthentication:nil];
+    }
+}
+
+
 // NOTE: We do NOT call super here. We are overloading the default behavior from RKRequest
 - (void)didFinishLoad:(RKResponse*)response {
     NSAssert([NSThread isMainThread], @"RKObjectLoaderDelegate callbacks must occur on the main thread");

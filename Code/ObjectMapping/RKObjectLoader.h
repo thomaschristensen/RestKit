@@ -37,6 +37,11 @@
 @optional
 
 /**
+ * Sent when an object loaded failed to load the collection due to authentication failure
+ */
+- (void)objectLoader:(RKObjectLoader*)objectLoader didFailAuthentication:(NSError*)error;
+
+/**
  When implemented, sent to the delegate when the object laoder has completed successfully
  and loaded a collection of objects. All objects mapped from the remote payload will be returned
  as a single array.
