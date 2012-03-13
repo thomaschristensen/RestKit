@@ -778,6 +778,12 @@ typedef void(^RKRequestDidFailLoadWithErrorBlock)(NSError *error);
  */
 - (BOOL)wasSentToResourcePath:(NSString *)resourcePath method:(RKRequestMethod)method;
 
+/**
+ Callback performed to notify the request that the underlying NSURLConnection
+ failed authentication.
+ */
+- (void)didFailAuthentication;
+
 @end
 
 /**
