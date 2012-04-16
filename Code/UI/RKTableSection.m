@@ -116,16 +116,18 @@
 
 - (void)removeObjectAtIndex:(NSUInteger)index {
     id object = [self objectAtIndex:index];
-    [(NSMutableArray*)_objects removeObjectAtIndex:index];
-
     NSIndexPath* indexPath = [NSIndexPath indexPathForRow:index
                                                 inSection:[_tableController indexForSection:self]];
-    [self.tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
-                          withRowAnimation:_tableController.defaultRowAnimation];
 
     if ([_tableController.delegate respondsToSelector:@selector(tableController:didDeleteObject:atIndexPath:)]) {
         [_tableController.delegate tableController:_tableController didDeleteObject:object atIndexPath:indexPath];
     }
+
+    [(NSMutableArray*)_objects removeObjectAtIndex:index];
+
+    [self.tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
+                          withRowAnimation:_tableController.defaultRowAnimation];
+
 }
 
 - (void)replaceObjectAtIndex:(NSUInteger)index withObject:(id)object {
