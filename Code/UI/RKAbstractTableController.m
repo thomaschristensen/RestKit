@@ -968,7 +968,7 @@ static NSString* lastUpdatedDateDictionaryKey = @"lastUpdatedDateDictionaryKey";
 
 - (void)updateOfflineImageForOnlineState:(BOOL)isOnline {
     if (isOnline) {
-        [self removeImageFromOverlay:self.imageForOffline];
+        [self removeImageOverlay];
     } else {
         if (self.imageForOffline) {
             [self showImageInOverlay:self.imageForOffline];
