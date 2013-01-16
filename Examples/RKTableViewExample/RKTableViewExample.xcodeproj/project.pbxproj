@@ -30,14 +30,14 @@
 		2559415A13E87204003B4D41 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2559415713E87203003B4D41 /* MobileCoreServices.framework */; };
 		2559415B13E87204003B4D41 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2559415813E87203003B4D41 /* SystemConfiguration.framework */; };
 		2590506A13F5B2C100694498 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2590506913F5B2C100694498 /* QuartzCore.framework */; };
-		259050CD13F5B9E400694498 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 259050C513F5B9E400694498 /* blackArrow.png */; };
-		259050CE13F5B9E400694498 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 259050C613F5B9E400694498 /* blackArrow@2x.png */; };
-		259050CF13F5B9E400694498 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 259050C713F5B9E400694498 /* blueArrow.png */; };
-		259050D013F5B9E400694498 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 259050C813F5B9E400694498 /* blueArrow@2x.png */; };
-		259050D113F5B9E400694498 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 259050C913F5B9E400694498 /* grayArrow.png */; };
-		259050D213F5B9E400694498 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 259050CA13F5B9E400694498 /* grayArrow@2x.png */; };
-		259050D313F5B9E400694498 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 259050CB13F5B9E400694498 /* whiteArrow.png */; };
-		259050D413F5B9E400694498 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 259050CC13F5B9E400694498 /* whiteArrow@2x.png */; };
+		5E1766CA1517B97B00A9F704 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1766BA1517B85C00A9F704 /* blackArrow.png */; };
+		5E1766CB1517B97B00A9F704 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1766BB1517B85C00A9F704 /* blackArrow@2x.png */; };
+		5E1766CC1517B97B00A9F704 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1766BC1517B85C00A9F704 /* blueArrow.png */; };
+		5E1766CD1517B97B00A9F704 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1766BD1517B85C00A9F704 /* blueArrow@2x.png */; };
+		5E1766CE1517B97B00A9F704 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1766BE1517B85C00A9F704 /* grayArrow.png */; };
+		5E1766CF1517B97B00A9F704 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1766BF1517B85C00A9F704 /* grayArrow@2x.png */; };
+		5E1766D01517B97B00A9F704 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1766C01517B85C00A9F704 /* whiteArrow.png */; };
+		5E1766D11517B97B00A9F704 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1766C11517B85C00A9F704 /* whiteArrow@2x.png */; };
 		D3BF202814EE56650000E918 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BF202014EE55E50000E918 /* libRestKit.a */; };
 		D3BF202A14EE56760000E918 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BF202914EE56760000E918 /* Security.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +56,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 25160D1514564E810060A5C5;
 			remoteInfo = RestKit;
+		};
+		5E1766A71517B7BF00A9F704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2559416913E88304003B4D41 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25EC1AFF14F8078100C3CF3F;
+			remoteInfo = RestKitResources;
 		};
 		D3BF201F14EE55E50000E918 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -119,14 +126,14 @@
 		2559415813E87203003B4D41 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2559416913E88304003B4D41 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = ../../RestKit.xcodeproj; sourceTree = "<group>"; };
 		2590506913F5B2C100694498 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		259050C513F5B9E400694498 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
-		259050C613F5B9E400694498 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
-		259050C713F5B9E400694498 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
-		259050C813F5B9E400694498 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
-		259050C913F5B9E400694498 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
-		259050CA13F5B9E400694498 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
-		259050CB13F5B9E400694498 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
-		259050CC13F5B9E400694498 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		5E1766BA1517B85C00A9F704 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackArrow.png; path = ../../Resources/RKRefreshTriggerViewAssets/blackArrow.png; sourceTree = "<group>"; };
+		5E1766BB1517B85C00A9F704 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blackArrow@2x.png"; path = "../../Resources/RKRefreshTriggerViewAssets/blackArrow@2x.png"; sourceTree = "<group>"; };
+		5E1766BC1517B85C00A9F704 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueArrow.png; path = ../../Resources/RKRefreshTriggerViewAssets/blueArrow.png; sourceTree = "<group>"; };
+		5E1766BD1517B85C00A9F704 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blueArrow@2x.png"; path = "../../Resources/RKRefreshTriggerViewAssets/blueArrow@2x.png"; sourceTree = "<group>"; };
+		5E1766BE1517B85C00A9F704 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayArrow.png; path = ../../Resources/RKRefreshTriggerViewAssets/grayArrow.png; sourceTree = "<group>"; };
+		5E1766BF1517B85C00A9F704 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "grayArrow@2x.png"; path = "../../Resources/RKRefreshTriggerViewAssets/grayArrow@2x.png"; sourceTree = "<group>"; };
+		5E1766C01517B85C00A9F704 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whiteArrow.png; path = ../../Resources/RKRefreshTriggerViewAssets/whiteArrow.png; sourceTree = "<group>"; };
+		5E1766C11517B85C00A9F704 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "whiteArrow@2x.png"; path = "../../Resources/RKRefreshTriggerViewAssets/whiteArrow@2x.png"; sourceTree = "<group>"; };
 		D3BF202914EE56760000E918 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -257,6 +264,7 @@
 				D3BF202214EE55E50000E918 /* RestKitTests.octest */,
 				D3BF202414EE55E50000E918 /* RestKit.framework */,
 				D3BF202614EE55E50000E918 /* RestKitFrameworkTests.octest */,
+				5E1766A81517B7BF00A9F704 /* RestKitResources.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -264,17 +272,17 @@
 		259050C413F5B9E300694498 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				259050C513F5B9E400694498 /* blackArrow.png */,
-				259050C613F5B9E400694498 /* blackArrow@2x.png */,
-				259050C713F5B9E400694498 /* blueArrow.png */,
-				259050C813F5B9E400694498 /* blueArrow@2x.png */,
-				259050C913F5B9E400694498 /* grayArrow.png */,
-				259050CA13F5B9E400694498 /* grayArrow@2x.png */,
-				259050CB13F5B9E400694498 /* whiteArrow.png */,
-				259050CC13F5B9E400694498 /* whiteArrow@2x.png */,
+				5E1766BA1517B85C00A9F704 /* blackArrow.png */,
+				5E1766BB1517B85C00A9F704 /* blackArrow@2x.png */,
+				5E1766BC1517B85C00A9F704 /* blueArrow.png */,
+				5E1766BD1517B85C00A9F704 /* blueArrow@2x.png */,
+				5E1766BE1517B85C00A9F704 /* grayArrow.png */,
+				5E1766BF1517B85C00A9F704 /* grayArrow@2x.png */,
+				5E1766C01517B85C00A9F704 /* whiteArrow.png */,
+				5E1766C11517B85C00A9F704 /* whiteArrow@2x.png */,
 			);
 			name = Resources;
-			path = ../../Vendor/EGOTableViewPullRefresh/EGOTableViewPullRefresh/Resources;
+			path = ../../Resources/RKRefreshTriggerViewAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,6 +359,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		5E1766A81517B7BF00A9F704 /* RestKitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitResources.bundle;
+			remoteRef = 5E1766A71517B7BF00A9F704 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		D3BF202014EE55E50000E918 /* libRestKit.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -386,16 +401,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1766CA1517B97B00A9F704 /* blackArrow.png in Resources */,
+				5E1766CB1517B97B00A9F704 /* blackArrow@2x.png in Resources */,
+				5E1766CC1517B97B00A9F704 /* blueArrow.png in Resources */,
+				5E1766CD1517B97B00A9F704 /* blueArrow@2x.png in Resources */,
+				5E1766CE1517B97B00A9F704 /* grayArrow.png in Resources */,
+				5E1766CF1517B97B00A9F704 /* grayArrow@2x.png in Resources */,
+				5E1766D01517B97B00A9F704 /* whiteArrow.png in Resources */,
+				5E1766D11517B97B00A9F704 /* whiteArrow@2x.png in Resources */,
 				255940EA13E86FD4003B4D41 /* InfoPlist.strings in Resources */,
 				255940F313E86FD4003B4D41 /* MainStoryboard.storyboard in Resources */,
-				259050CD13F5B9E400694498 /* blackArrow.png in Resources */,
-				259050CE13F5B9E400694498 /* blackArrow@2x.png in Resources */,
-				259050CF13F5B9E400694498 /* blueArrow.png in Resources */,
-				259050D013F5B9E400694498 /* blueArrow@2x.png in Resources */,
-				259050D113F5B9E400694498 /* grayArrow.png in Resources */,
-				259050D213F5B9E400694498 /* grayArrow@2x.png in Resources */,
-				259050D313F5B9E400694498 /* whiteArrow.png in Resources */,
-				259050D413F5B9E400694498 /* whiteArrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

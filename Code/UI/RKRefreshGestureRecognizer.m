@@ -76,7 +76,7 @@ static CGFloat const kDefaultTriggerViewHeight = 64.f;
         NSDate *date = [self.scrollView.delegate performSelector:lastUpdatedSelector withObject:self];
         if (!date)
             return;
-        NSString *lastUpdatedText = [NSString stringWithFormat:@"Last Updated: %@", [self.dateFormatter stringFromDate:date]];
+        NSString *lastUpdatedText = [NSString stringWithFormat:NSLocalizedString(@"Last Updated: %@", @"Last Updated: %@"), [self.dateFormatter stringFromDate:date]];
         self.triggerView.lastUpdatedLabel.text = lastUpdatedText;
         
     } else {
