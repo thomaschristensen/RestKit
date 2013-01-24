@@ -474,9 +474,6 @@ static const NSTimeInterval kFlushDelay = 0.3;
     if ([_delegate respondsToSelector:@selector(requestQueue:didLoadResponse:)]) {
         [_delegate requestQueue:self didLoadResponse:response];
     }
-
-    [self removeLoadingRequest:request];
-    [self loadNextInQueue];
 }
 
 - (void)processRequestDidFailWithErrorNotification:(NSNotification *)notification {
@@ -499,9 +496,6 @@ static const NSTimeInterval kFlushDelay = 0.3;
     if ([_delegate respondsToSelector:@selector(requestQueue:didFailRequest:withError:)]) {
         [_delegate requestQueue:self didFailRequest:request withError:error];
     }
-
-    [self removeLoadingRequest:request];
-    [self loadNextInQueue];
 }
 
 /*
