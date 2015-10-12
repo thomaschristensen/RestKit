@@ -26,6 +26,7 @@ EOS
 
   # Preserve the layout of headers in the Code directory
   #s.header_mappings_dir = 'Code'
+  spec.header_dir = 'Vendor/LibComponentLogging/Core'
 
   ### Subspecs
 
