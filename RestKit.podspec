@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 EOS
 
   # Preserve the layout of headers in the Code directory
-  #s.header_mappings_dir = 'Code' #works if all headers in this version wasn't placed in subdirs!! TC 12102015
+  s.header_mappings_dir = 'Code' 
 
   ### Subspecs
 
