@@ -25,8 +25,7 @@ Pod::Spec.new do |s|
 EOS
 
   # Preserve the layout of headers in the Code directory
-  #s.header_mappings_dir = 'Code'
-  s.header_dir = 'Code', 'Vendor/LibComponentLogging/Core'
+  #s.header_mappings_dir = 'Code' #works if all headers in this version wasn't placed in subdirs!! TC 12102015
 
   ### Subspecs
 
@@ -93,6 +92,7 @@ EOS
   end
 
   s.subspec 'Support' do |ss|
+  	ss.header_dir = 'Vendor/LibComponentLogging/Core'
     ss.source_files   = 'Code/RestKit.h', 'Code/Support.h', 'Code/Support', 'Vendor/LibComponentLogging/Core'
   end
 end
